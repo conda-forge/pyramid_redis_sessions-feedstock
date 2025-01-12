@@ -22,7 +22,7 @@ requirements:
   run:
     - python >={{ python_min }}
     - redis-py
-    - pyramid
+    - pyramid <2.0
 
 test:
   requires:
